@@ -18,10 +18,17 @@ body {
   padding: 2px 0;
 }
 
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
 .navbar__container {
   width: 100%;
   height: auto;
   position: fixed;
+  z-index: 100;
+  top: 0;
 
   .top__header {
     background-color: #eff4f7;
@@ -97,6 +104,46 @@ body {
           /* background-color: #000; */
           color: #fff;
         }
+      }
+    }
+  }
+}
+
+.home_container {
+  padding-top: calc(38px + 82px);
+  position: relative;
+  .homeSwiper {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    .homeBanner_swiperSlide {
+      img {
+        width: 100%;
+        height: calc(100vh);
+      }
+    }
+
+    .swiper-button-prev {
+      position: absolute;
+      left: 20px;
+      border: 1px solid #000;
+      border-radius: 50%;
+      padding: 10px;
+      color: #fff;
+      background-color: #242424;
+    }
+    .swiper-button-next {
+      position: absolute;
+      right: 20px;
+      border: 1px solid #000;
+      border-radius: 50%;
+      padding: 10px;
+      color: #fff;
+      background-color: #242424;
+    }
+    .swiper-pagination {
+      .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        color: #fff !important;
       }
     }
   }
