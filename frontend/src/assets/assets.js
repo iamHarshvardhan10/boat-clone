@@ -10,6 +10,10 @@ import homeBanner5 from '../assets/home_banner05.png'
 import homeBanner6 from '../assets/home_banner06.jpeg'
 import homeBanner7 from '../assets/home_banner07.png'
 import homeFooterStrip from '../assets/homeFooterStrip.png'
+import homeFooterBadge1 from '../assets/home_footerBadge1.svg'
+import homeFooterBadge2 from '../assets/home_footerBadge2.svg'
+import homeFooterBadge3 from '../assets/home_footerBadge3.svg'
+import homeFooterBadge4 from '../assets/home_footerBadge4.svg'
 export const assets = {
     logo,
     search_icons,
@@ -22,5 +26,9 @@ export const assets = {
     homeBanner5,
     homeBanner6,
     homeBanner7,
-    homeFooterStrip
+    homeFooterStrip,
+    homeFooterBadge1,
+    homeFooterBadge2,
+    homeFooterBadge3,
+    homeFooterBadge4
 }

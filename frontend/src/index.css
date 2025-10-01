@@ -23,6 +23,16 @@ section {
   min-height: 100vh;
 }
 
+h5 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+
+.footer__p {
+  font-size: 12px;
+}
+
 .navbar__container {
   width: 100%;
   height: auto;
@@ -144,6 +154,34 @@ section {
     .swiper-pagination {
       .swiper-pagination-bullet.swiper-pagination-bullet-active {
         color: #fff !important;
+      }
+    }
+  }
+
+  .home__banner_footer {
+    width: 100%;
+    height: 100%;
+
+    .home__banner_footer_img {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .home__footer_l {
+      padding: 10px 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      .footer__logo_container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+          width: 58px;
+          height: 58px;
+        }
       }
     }
   }
